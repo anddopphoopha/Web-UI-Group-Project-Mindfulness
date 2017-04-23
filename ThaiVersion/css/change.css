@@ -1,0 +1,74 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-image: url("../images/Change_password.jpg");
+	background-size: 100% 100%;
+	background-repeat: none;
+}
+#middle{
+	padding: 0 5%;
+}
+.button{
+	border-radius: 12px ;
+	
+}
+content{
+	color : white;
+	margin-top : 5%;
+	padding : 10px;
+}
+h1{
+	color : white;
+	margin-top : 5%;
+	text-align : center;
+	font-size : 50%
+	
+}
+p{
+	text-align : center;
+	color : white;
+	font-size : 100%;
+	text-decoration: underline;
+}
+form{
+	color : white;
+	text-align: left;
+	padding: 10px;
+	border : 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	color : black;
+}
+input[type = submit]{
+	text-align: center;
+	margin: 2%;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+input[type = password]{
+	width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	color : black;
+}
+.button{
+	color : black;
+}
+.sub{
+	padding-top: 7.5%;
+}

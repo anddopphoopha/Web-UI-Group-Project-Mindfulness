@@ -1,0 +1,228 @@
+body{
+	/*background-color: #9c9f84; */
+	background-image: url(../images/BG_blur.png);
+	margin: 0px;  /*overide default margin created by browser */
+	font-family: Verdana,Georgia,serif; /*font for content*/
+	font-size: 14px; /*default size for content*/
+}
+#headeradmin {
+	background-color: black;
+	color: white;
+	font-size: 150%;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	font-size: 150%;
+	border: 1px solid black;
+	margin-left: 600px;
+	margin-right: 380px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.col-md-1{
+	width: 4.5% !important;
+}
+.col-md-10{
+	width: 91% !important;
+}	
+.row a{
+	padding: 5px;
+	margin: 15px 5px 0px 0px;
+	border-radius: 2px;
+	border: 2px solid grey;
+	line-height: 40px;
+}
+
+.wraper{
+	font-size: 120%;
+	border: 1px solid black;
+	background-color: black;
+	margin-left: 10px;
+	margin-right:10px;
+	color: white !important;
+}
+#mySearch{
+	margin-top: 5px;
+	color: black !important;
+}
+
+#signout {
+	padding: 5px;
+	text-align: right;
+
+}
+.waperbutton{
+	margin-top: 50px;
+}
+
+#removebutton{
+	margin-top: 30px;
+}
+
+#trash{
+	margin-left: 600px;
+}
+#trash a{
+	color: orange !important;
+}
+
+.list{
+	margin-left: 50px;
+}
+.templelabel{
+	color: yellow;
+	margin-left: 10px;
+}
+
+.templeimg{
+	float: left;
+	color: yellow;
+	margin-left: 300px;
+
+}
+
+.templename{
+	color: white;
+	margin-left: 5px;
+}
+
+.username{
+	color: yellow;
+	margin-left: 25px;
+}
+
+.email{
+	color: white;
+	margin-left: 5px;
+}
+
+.pagebreak{
+	color: white;
+	text-align: center;
+	border:1px solid white;
+	margin-left: 300px;
+	margin-right: 340px;
+}
+
+
+.main{   /*should be liquid, since the size of the content changes frequently */
+	background-color: black;
+	margin-left: 320px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	color: white;
+	font-size: 110%; /*increase font size in the main section*/
+}
+
+
+h1{
+	font-size: 120%;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	font-size: 120%;
+	color: white;
+}
+
+.sideleft{   /*it does not need to be liquid */
+	background-color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%; 
+	color: white;
+	float: left;
+	width: 260px;
+	clear: left;
+}
+
+#sideleftadmin{   /*it does not need to be liquid */
+	background-color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 200%; 
+	float: left;
+	width: 260px;
+	clear: left;
+}
+/* css for staff requirement */
+.deletebutton {
+	margin-left: 100px;
+
+}
+#submitbutton{
+	background-color: black;
+	font-size: 120%;
+	color: yellow;
+}
+
+
+#unwantedList, #wantedList{
+	margin-left: 100px;
+}
+
+.listbutton{
+	background-color: black;
+	color: white;
+	margin-left: 300px;
+}
+/*css for QR code */
+#qrimg {
+	margin-left: 210px;
+}
+#printArea{
+	margin-left: 100x;
+}
+#printbutton{
+	background-color: black;
+	font-size: 120%;
+	color: yellow;
+	margin-top: 30px;
+	margin-left: 200px;
+
+}
+
+#downloadbutton{
+	background-color: black;
+	font-size: 120%;
+	color: yellow;
+	margin-left: 40px;
+	padding: 2.5px;
+	border: 2px solid #C0C0C0;
+	text-decoration: none;
+}
+.removeButton{
+	background-color: black;
+	color: white;
+	margin-left: 50%;
+}
+.requirement{
+	display: none;
+}
+#wantedList li, #unwantedList li{
+	padding: 5px 0;
+}
+
+.item{
+	color: black;
+}
+.addButton{
+background-color: black;
+	color: white;
+}

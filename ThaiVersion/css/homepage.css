@@ -1,0 +1,111 @@
+* {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	outline: none !important;
+}
+html, body{
+	height: 100% !important;
+	width: 100%;
+}
+body{
+	background-image: url(../images/homePage.jpg);
+	background-repeat: no-repeat !important;
+	background-position: 0 57px;
+	background-size: 100% 100% !important;
+}
+@media screen and (orientation: portrait){
+	.article{
+		margin-left: 30%;
+		text-align: right;
+		padding: 50% 0 1% 0;
+		color: white;
+		word-wrap: break-word;
+	}
+	.article p{
+		text-indent: 25%;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) and (orientation: landscape){
+/* Styles */.article{
+		margin-left: 50%;
+		text-align: right;
+		padding: 5% 0 1% 0;
+		color: white;
+		word-wrap: break-word;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) and (orientation: portrait){
+.article{
+		margin-left: 30%;
+		text-align: right;
+		padding: 30% 0 1% 0;
+		color: white;
+		word-wrap: break-word;
+	}
+	.article p{
+		text-indent: 25%;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+.article{
+		margin-left: 50%;
+		text-align: right;
+		padding: 35% 0 1% 0;
+		color: white;
+		word-wrap: break-word;
+	}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.article{
+		margin-left: 50%;
+		text-align: right;
+		padding: 15% 0 1% 0;
+		color: white;
+		word-wrap: break-word;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+.article{
+		margin-left: 50%;
+		text-align: right;
+		padding: 20% 0 1% 0;
+		color: white;
+		word-wrap: break-word;
+	}
+}
+h1{
+	font-size: 200%;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.article{
+	font-size: 125%;
+}
+
+p.instruction{
+color: white;
+font-size: 125%;
+text-align: right;
+}
