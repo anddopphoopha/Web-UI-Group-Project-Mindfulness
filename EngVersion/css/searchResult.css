@@ -1,0 +1,25 @@
+* {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+body{
+	background-color: rgb(255,228,181) !important;
+}
+
+div.search{
+	padding-top: 5px;
+	padding-left: 50px;
+}
+img {
+	border: 2px grey solid; 
+}
+div.content{
+	width: 100%;
+	background-color: rgba(210,105,30,0.7);
+	font-size: 135%;
+	padding: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+	border: 1px grey solid;
+}

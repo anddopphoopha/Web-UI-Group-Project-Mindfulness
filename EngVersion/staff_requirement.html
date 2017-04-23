@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.75">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/backend.css">
+	<title>Temple Information Editing</title>
+</head>
+
+<body>
+	<div class="wraper row">
+		<div class="col-md-1">
+			<a style="text-decoration: none; color: inherit;" href="../Eng/staff_requirement.html">Eng</a>
+			</div>
+			<div class="col-md-1">
+			<a style="text-decoration: none;  color: inherit;" href="../Thai/staff_requirement.html">ไทย</a>
+			</div>
+			<div class="col-md-10 text-right">
+			<a style="text-decoration: none; color: inherit;" href="homepage.html" id="signout">Sign Out</a>
+		</div>
+	</div>
+	<div id="sideleftadmin">
+		<h2 style="color:yellow;">For Staff</h2>
+	</div>
+
+	<div class="sideleft">
+		<a href="staff_edit_temple_info.html" style="text-decoration:none"><h2>Edit temple Information</h2></a>
+	</div>
+
+	<div class="sideleft">
+		<a href="staff_requirement.html" style="text-decoration:none"><h2>Edit temple requirement</h2></a>
+	</div>
+
+	<div class="sideleft">
+		<a href="staff_qrcode.html" style="text-decoration:none"><h2>View QR Code</h2></a>
+	</div>
+
+	<div class="sideleft">
+		<a href="change_password.html" style="text-decoration:none"><h2>change password</h2></a>
+	</div>
+
+	<div class="sideleft">
+		<a href="staff_back_end.html" style="text-decoration:none"><h2>Go Back</h2></a>
+	</div>
+	<div class="main">
+		<h1 style="font-size:180%">Temple Requirement</h1>
+		<br>
+		<h1 style="color:yellow">Wanted Lists:</h1>
+		<br>
+		<ol id="wantedList">
+		<li class="first">Rice<button class="removeButton">Remove</button></li>
+		<li class="second">Beef<button class="removeButton">Remove</button></li> 
+		<li class="requirement"><input type="checkbox">&nbsp;Emergency Item&nbsp;<input type="text" class="item"><button class="addButton" style="margin-left: 7.5%;">Add</button></li>
+		</ol>
+		<button id="wantedButton" class="listbutton">Add more</button>
+		<h1 style="color:yellow" >Enough supply Lists:</h1>
+		<br>
+		<ol id="unwantedList">
+		<li class="first">Fish<button class="removeButton">Remove</button></li>
+		<li class="second">Pork<button class="removeButton">Remove</button></li> 
+		<li class="requirement"><input type="text" class="item"><button class="addButton" style="margin-left: 27%;">Add</button></li>
+		</ol>
+		<button id="unwantedButton" class="listbutton">Add more</button>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/templeRequirement.js"></script>
+	</body>
+
+	</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.75">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/backend.css">
+	<title>Admin_Back_End</title>
+</head>
+
+<body>
+	<div class="wraper row">
+		<div class="col-md-1">
+			<a  style="text-decoration: none; color: inherit;" href="../Eng/admin_search_keyword.html">Eng</a>
+		</div>
+		<div class="col-md-1">
+			<a  style="text-decoration: none; color: inherit;" href="../Thai/admin_search_keyword.html">ไทย</a>
+		</div>
+		<div class="col-md-10 text-right">
+			<form>
+				<input type="search" id="mySearch" placeholder="Search here.." > 
+				<a href="admin_search_keyword.html" style="border: none;text-decoration: none; color: inherit;"><i class="fa fa-search"></i></a>
+			</form>
+		</div>
+	</div>
+
+	<div id="sideleftadmin">
+		<h2 style="color:yellow;">For Admin</h2>
+	</div>
+
+
+	<div class="sideleft">
+		<a href="admin_change_password.html" style="text-decoration:none"><h2>change password</h2></a>
+	</div>
+
+	<div class="sideleft">
+		<a href="admin_back_end.html" style="text-decoration:none"><h2>Go Back</h2></a>
+	</div>
+
+	<div class="sideleft">
+		<a href="homepage.html" style="text-decoration:none"><h2>Sign out</h2></a>
+	</div>
+
+
+
+	<div class="main">
+		<div id="headeradmin">
+			<h1>Keywords: <span class="templelabel">Wat Pra Sin:</span> </h1>
+		</div>
+		<div class="w3-padding w3-xlarge" id="trash">
+			<a href="admin_back_end.html"><i class="fa fa-trash"></i></a>
+			<a href="admin_search.html"><i class="fa fa-eye"></i></a>
+		</div>
+		<input type="checkbox"><span class="templelabel">Temple's name:</span> <span class="templename">Watprasin</span> <span class="username">UserName:</span> <span class="email"> Watprasin@gmail.com</span><br/>
+	</div>
+</body>
+
+</html>
