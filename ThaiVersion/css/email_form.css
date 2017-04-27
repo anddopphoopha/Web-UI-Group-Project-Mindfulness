@@ -1,14 +1,9 @@
-html,body{
-	width: 100%;
-	height: 100%;
-}
+
 .wrapper{
 	margin : 5%;
 }
 body{
 	background-image: url("../images/emailForm_bg.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
 	color: black;
 }
 .content{
@@ -20,10 +15,8 @@ body{
 }
 form{
 	text-align: left;
-	padding: 2%
-	font-size : 30px;
 }
-input[type=text] {
+input[type=email] {
     width: 100%;
     padding: 10px 20px;
     margin: 8px 0;
@@ -39,6 +32,7 @@ input[type = submit]{
 	padding-right: 30px;
 	padding-left: 30px;
 	color: black;
+	border: 1px solid black;
 	
 
 }

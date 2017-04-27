@@ -1,11 +1,5 @@
-html,body{
-	width: 100%;
-	height: 100%;
-}
 body{
 	background-image: url("../images/Change_password.jpg");
-	background-size: 100% 100%;
-	background-repeat: none;
 }
 #middle{
 	padding: 0 5%;
@@ -33,10 +27,9 @@ p{
 	text-decoration: underline;
 }
 form{
-	color : white;
+	color: white;
 	text-align: left;
 	padding: 10px;
-	border : 100%;
 }
 
 input[type=text] {

@@ -1,13 +1,5 @@
-html,body{
-	width: 100%;
-	height: 100%;
-}
 body{
-	
-	background-image: url("../images/sign_in.jpg");
-	background-size: 100% 100%;
-	background-repeat: none;
-
+	background-image: url("../images/gradient-wallpaper-2.jpg");
 }
 #middle{
 	padding: 0 5% !important;
@@ -21,12 +13,8 @@ div.content{
 	
 h1{
 	color : white;
-	padding:40px;
-	margin-top : 5%;
-	text-align : center;
-	font-size : 150%
-	
-	
+	text-align: center;
+	font-size: 150%
 }
 h2{
 	color : white;
@@ -43,7 +31,6 @@ form{
 	color : white;
 	text-align: left;
 	padding: 20px;
-	border : 100%;
 }
 input[type=text] {
     width: 100%;
@@ -74,6 +61,6 @@ input[type = password]{
 	color : black;
 }
 .sub{
-	padding-top: 1%;
+	padding-top: 2.5%;
 	padding-bottom: 4%;
 }

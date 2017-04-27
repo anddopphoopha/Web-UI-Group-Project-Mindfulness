@@ -16,13 +16,16 @@
 	<div class="wraper row">
 		<div class="col-md-1">
 			<a style="text-decoration: none; color: inherit;" href="../Eng/staff_requirement.html">Eng</a>
-			</div>
-			<div class="col-md-1">
+		</div>
+		<div class="col-md-1">
 			<a style="text-decoration: none;  color: inherit;" href="../Thai/staff_requirement.html">ไทย</a>
-			</div>
-			<div class="col-md-10 text-right">
+		</div>
+		<div class="col-md-10 text-right">
 			<a style="text-decoration: none; color: inherit;" href="homepage.html" id="signout">ออกจากระบบ</a>
 		</div>
+	</div>
+	<div id="header">
+		<h1>วัดพระสิงห์</h1>
 	</div>
 	<div id="sideleftadmin">
 		<h2 style="color:yellow;">สำหรับพนักงาน</h2>
@@ -32,7 +35,7 @@
 		<a href="staff_edit_temple_info.html" style="text-decoration:none"><h2>แก้ไขข้อมูลวัด</h2></a>
 	</div>
 
-	<div class="sideleft">
+	<div class="sideleft highlight">
 		<a href="staff_requirement.html" style="text-decoration:none"><h2>แก้ไขสิ่งที่วัดต้องการ</h2></a>
 	</div>
 
@@ -47,31 +50,26 @@
 	<div class="sideleft">
 		<a href="staff_back_end.html" style="text-decoration:none"><h2>กลับไปก่อนหน้า</h2></a>
 	</div>
-
-
 	<div class="main">
 		<h1 style="font-size:180%">สิ่งที่วัดต้องการ</h1>
 		<br>
 		<h1 style="color:yellow">สิ่งที่ต้องการ:</h1>
 		<br>
 		<ol id="wantedList">
-		<li class="first">ข้าว<button class="removeButton">ลบออก</button></li>
-		<li class="second">วัว&nbsp;&nbsp;<button class="removeButton">ลบออก</button></li> 
-		<li class="requirement"><input type="checkbox">&nbsp;ต้องการที่สุด&nbsp;<input type="text" class="item"><button class="addButton" style="margin-left: 12.5%;">เพิ่ม</button></li>
+			<li>ข้าว<button class="removeButton">ลบออก</button></li>
+			<li>วัว<button class="removeButton">ลบออก</button></li>
 		</ol>
 		<button id="wantedButton" class="listbutton">เพิ่มอีก</button>
 		<h1 style="color:yellow" >สิ่งที่ไม่ต้องการ:</h1>
 		<br>
 		<ol id="unwantedList">
-		<li class="first">ปลา<button class="removeButton">ลบออก</button></li>
-		<li class="second">หมู&nbsp;&nbsp;<button class="removeButton">ลบออก</button></li> 
-		<li class="requirement"><input type="text" class="item"><button class="addButton" style="margin-left: 27%;">เพิ่ม</button></li>
+			<li>ปลา<button class="removeButton">ลบออก</button></li>
+			<li>หมู<button class="removeButton">ลบออก</button></li>
 		</ol>
 		<button id="unwantedButton" class="listbutton">เพิ่มอีก</button>
 	</div>
-
-<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/templeRequirement.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/templeRequirement.js"></script>
 </body>
 
 </html>

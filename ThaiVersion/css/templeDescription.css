@@ -44,5 +44,5 @@ div.wrapDescription{
 	margin-bottom: 7%;
 	background-image: url("../images/temp.jpg");
 	background-size: 100% 100%;
-	background-repeat: none;
+	background-repeat: no-repeat;
 }

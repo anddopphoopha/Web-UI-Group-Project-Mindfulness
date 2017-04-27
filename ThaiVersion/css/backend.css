@@ -12,6 +12,15 @@ body{
 	margin-top: 10px;
 	border-radius: 5px;
 }
+.highlight{
+	background-color: orange !important;
+	color: black!important;
+	border: none;
+	border-radius: 2px;
+}
+.highlight h2{
+	color:black !important;
+}
 
 #header {
 	background-color: black;
@@ -140,7 +149,7 @@ h2{
 	margin-top: 0px;
 	margin-bottom: 10px;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 15px;
 	font-size: 105%; 
 	color: white;
 	float: left;
@@ -170,31 +179,35 @@ h2{
 	background-color: black;
 	font-size: 120%;
 	color: yellow;
+	padding: 5px;
 }
 
 
 #unwantedList, #wantedList{
 	margin-left: 100px;
 }
+#unwantedList li, #unwantedList, #wantedList, #wantedList li{
+	width: 80%;
+	position: relative;
+}
 
 .listbutton{
 	background-color: black;
+	font-size: 120%;
 	color: white;
 	margin-left: 300px;
+	
 }
 /*css for QR code */
 #qrimg {
 	margin-left: 210px;
-}
-#printArea{
-	margin-left: 100x;
 }
 #printbutton{
 	background-color: black;
 	font-size: 120%;
 	color: yellow;
 	margin-top: 30px;
-	margin-left: 200px;
+	margin-left: 250px;
 
 }
 
@@ -203,20 +216,23 @@ h2{
 	font-size: 120%;
 	color: yellow;
 	margin-left: 40px;
-	padding: 2.5px;
-	border: 2px solid #C0C0C0;
+	padding: 6px;
 	text-decoration: none;
 }
 .removeButton{
-	background-color: black;
-	color: white;
-	margin-left: 50%;
+	position: absolute; left: auto; right: 0;
 }
-.requirement{
-	display: none;
+div.main button{
+	padding: 5px;
+	background-color: orange !important;
+	color: black!important;
+	border: none;
+	border-radius: 2px;
 }
+
 #wantedList li, #unwantedList li{
-	padding: 5px 0;
+	margin: 15px;
+	font-size: 120%;
 }
 
 .item{
